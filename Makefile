@@ -63,7 +63,7 @@ MINIKUBE_BUCKET ?= minikube/releases
 MINIKUBE_UPLOAD_LOCATION := gs://${MINIKUBE_BUCKET}
 MINIKUBE_RELEASES_URL=https://github.com/kubernetes/minikube/releases/download
 
-KERNEL_VERSION ?= 4.19.194
+KERNEL_VERSION ?= 5.10.43
 # latest from https://github.com/golangci/golangci-lint/releases
 GOLINT_VERSION ?= v1.39.0
 # Limit number of default jobs, to avoid the CI builds running out of memory
